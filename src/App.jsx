@@ -1,15 +1,31 @@
-import { Header, Footer, Home } from "./components/index";
+import {
+  Header,
+  Footer,
+  Home,
+  About,
+  Cervices,
+  Clients,
+  Contacts,
+  Portfolio,
+  Skills
+} from "./components/index";
 function App() {
   return (
     <>
-    <Header/>
+      <Header />
       <main>
-        <Home/>
+        <Home />
+        <About />
+        <Cervices />
+        <Clients />
+        <Contacts />
+        <Portfolio/>
+        <Skills/>
         <div className="container">
           <h1>React Portfolio</h1>
         </div>
       </main>
-      <Footer/>
+      <Footer />
     </>
   );
 }

@@ -1,9 +1,11 @@
-import './Home.css'
+import "./Home.css";
 
 const Home = () => {
   return (
-    <h2 className='home'>Home</h2>
-  )
-}
+    <section className="home" id="home">
+      <h2>Home</h2>
+    </section>
+  );
+};
 
-export default Home
+export default Home;
